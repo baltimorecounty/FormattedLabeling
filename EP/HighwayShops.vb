@@ -1,3 +1,5 @@
+' Highway shop labeling script by BC DPW.
+
 Function FindLabel([HighwayShops.NAME], [HighwayShops.SHOP], [HighwayShops.CONTACT], [HighwayShops.CONTACT_TITLE], [HighwayShops.PHONE1], [HighwayShops.CONTACT_PHONE] ) 
   var = [HighwayShops.NAME]
   splitStr = Split(var, chr(32))
